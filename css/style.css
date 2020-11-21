@@ -1,10 +1,4 @@
-/*
 
-App Starter Template
-
-http://www.templatemo.com/tm-492-app-starter
-
-*/
 
 body {
 		background: #1c1c1c;
@@ -213,8 +207,8 @@ a:hover, a:active, a:focus {
 }
 
 .navbar-default .navbar-brand {
-  color: #d7657f;
-  font-size: 26px;
+  color: #535bd4;
+  font-size: 40px;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -222,8 +216,12 @@ a:hover, a:active, a:focus {
   margin: 0;
 }
 
+.navbar-default .navbar-brand span .xx{
+  color: black;
+}
+
 .navbar-default .navbar-brand span {
-  color: #1dc9e3;
+  color: #ff69b4;
 }
 
 .navbar-default .navbar-nav li a {
@@ -275,10 +273,10 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #home {
-    background: #535bd4 url('../images/bg.jpg') no-repeat;
+    background: #ff69b4 url('../images/home-bg.jpg') no-repeat;
     background-size: cover;
     background-position: center center;
-    color: #ffffff;
+    color: #ff69b4;
     display: -webkit-box;
     display: -webkit-flex;
      display: -ms-flexbox;
@@ -292,9 +290,9 @@ a:hover, a:active, a:focus {
 }
 
 #home .overlay {
-  background: #4776E6; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #4776E6 , #8E54E9); /* Chrome 10-25, Safari 5.1-6 */ 
-  background: linear-gradient(to left, #4776E6 , #8E54E9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #ff69b4; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #ff69b4 , #ff69b4); /* Chrome 10-25, Safari 5.1-6 */ 
+  background: linear-gradient(to left, #ff69b4 , #ff69b4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   opacity: 0.9;
   position: absolute;
   width: 100%;
@@ -307,7 +305,6 @@ a:hover, a:active, a:focus {
 #home img {
   width: 50%;
   height: auto;
-  margin: auto;
 }
 
 #home .home-thumb {
@@ -335,7 +332,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #divider {
-  background-color: #1dc9e3;
+  background-color: #ff69b4;
 }
 
 #divider p {
@@ -445,7 +442,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #pricing {
-  background: #535bd4;
+  background: #ff69b4;
 }
 
 #pricing .pricing-plan {
@@ -887,3 +884,19 @@ footer p {
   p {
     font-size: 16px;
   }
+
+}
+
+.njir {
+  width: 50%;
+  height: 230px;
+  background-color: white;
+  color: pink;
+  padding: 2%;
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+  overflow: scroll;
+  border: solid #ff69b4;
+  font-size: 15px;
+}
